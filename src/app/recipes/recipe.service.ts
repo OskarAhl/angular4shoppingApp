@@ -33,4 +33,8 @@ export class RecipeService {
     //(arr is obj so pass by reference = need to make copy to prevent pass by reference )
     return this.recipes.slice();
   }
+
+  addIngredientsToShoppingList(ingredients: Ingredient[]) {
+    
+  }
 }
